@@ -730,7 +730,7 @@ alone is not considered a good measure. Why?<br>click on Read more to get the an
             </div>
 
             <form class="contact-form" action="https://formsubmit.co/4faf9eaffe304162ce46e95c3fb59b84" method="POST">
-              <input type="text" name="_honey" style="display: none;">
+              <input type="text" name="_honey" style="display: none;" >
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://ikaashifmohideeen.github.io/cloudsite/suc.html">
               <h3 class="title">Contact me</h3>
@@ -740,6 +740,7 @@ alone is not considered a good measure. Why?<br>click on Read more to get the an
                   name="First name"
                   class="contact-input"
                   placeholder="First Name"
+                  required
                 />
                 <input
                   name="Last name"
@@ -750,8 +751,8 @@ alone is not considered a good measure. Why?<br>click on Read more to get the an
               </div>
 
               <div class="row">
-                <input type="text" class="contact-input" placeholder="Phone" name="cell number"/>
-                <input type="email" class="contact-input" placeholder="Email" name="email id "/>
+                <input type="text" class="contact-input" placeholder="Phone" name="cell number" required/>
+                <input type="email" class="contact-input" placeholder="Email" name="email id " required/>
               </div>
 
               <div class="row">
@@ -759,6 +760,7 @@ alone is not considered a good measure. Why?<br>click on Read more to get the an
                   name="message"
                   class="contact-input textarea"
                   placeholder="Message"
+                  required
                 ></textarea>
               </div>
               <button  type="submit" class="btn">Send</button>

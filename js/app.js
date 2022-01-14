@@ -155,11 +155,11 @@ const elts = {
 const texts = [
   "Web Devoloper",
   "App Devoloper",
-  "Machine Learning engineer",
+  "Machine Learning",
   "Data Analytist",
-  "Deep Learning Enginner",
-  "Computuer Vision",
-  "Enthuasits",
+  "Deep Learning",
+  "Computer Vision",
+  "Enthusiast",
   ":)",
   
 ];
